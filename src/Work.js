@@ -111,7 +111,7 @@ function Work({lan}) {
                 <Card className='card' >
                     <Card.Img variant="top" src={fir} />
                     <Card.Body>
-                    <Card.Title style={{marginBottom:'30px'}}>Card Title</Card.Title>
+                    <Card.Title style={{marginBottom:'30px'}}>Firt Website</Card.Title>
                     {/* <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
@@ -131,7 +131,7 @@ function Work({lan}) {
                 <Card className='card' >
                     <Card.Img variant="top" src={sec} />
                     <Card.Body>
-                    <Card.Title style={{marginBottom:'30px'}}>Card Title</Card.Title>
+                    <Card.Title style={{marginBottom:'30px'}}>  </Card.Title>
                     {/* <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
@@ -145,7 +145,7 @@ function Work({lan}) {
                 <Card className='card' >
                     <Card.Img variant="top" src={fir} />
                     <Card.Body>
-                    <Card.Title style={{marginBottom:'30px'}}>Card Title</Card.Title>
+                    <Card.Title style={{marginBottom:'30px'}}>Third Website</Card.Title>
                     {/* <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
