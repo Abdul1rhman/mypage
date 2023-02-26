@@ -1,13 +1,277 @@
-body {
+
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap');
+
+
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+  
+  color: black;
+  height: 70px;
+  margin-top: 30px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.lang{
+  text-align: center;
+  color: black;
+  width: 100px;
+  border: none;
+  /* position: relative;
+  top: 100%; */
+  height: 30px;
+  border-radius: 3px;
+  margin: 10px;
+  
+}
+
+.nav-cont{
+  display: flex;
+  padding-top: 20px;
+  align-items: baseline;
+  justify-content: space-between;
+  
+  height: 70px;
+}
+
+.nav-cont ul{
+  list-style: none;
+  display: flex;
+  gap: 71px;
+  /* align-items: first baseline; */
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.nav-cont ul li{
+  /* margin-right: 12px; */
+}
+
+.nav-cont ul li a{
+  font-size: 20px;
+  position: relative;
+  transition: 0.3s;
+  
+}
+
+.nav-cont ul li a:hover{
+  color: black;
+  
+}
+
+.nav-cont ul li a:before,
+.nav-cont ul li a:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color:black ;
+  transition: 0.5s;
+  
+}
+
+.nav-cont ul li a:before{
+  right: 0;
+  top: -7px;
+  
+}
+
+.nav-cont ul li a:after{
+  left: 0;
+  bottom: -7px;
+  
+}
+
+.nav-cont ul li a:hover:before,
+.nav-cont ul li a:hover:after{
+  
+  width: 100%;
+  
+  
+}
+
+.nav-btn{
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: black;
+  
+}
+
+
+
+
+
+@media (max-width:768px) {
+  /* .nav-cont ul{
+    display: none;
+  }  */
+  .nav-btn{
+    display: block;
+    
+  }
+  .nav-cont ul{
+    gap: 20px;
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: 100%;
+    top: 100px;
+    
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    height:fit-content;
+    
+  }
+  .nav-menu.active{
+    left: 0;
+  }
+}
+
+.main-home{
+  background-color: cornflowerblue;
+  background-image: url('https://images.unsplash.com/photo-1505796215109-a97d9dd14561?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  
+}
+
+.main-home::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #413337;
+  top: 0;
+  opacity: 0.5;
+  z-index:-1;;
+
+}
+
+.heading{
+  /* background-color: antiquewhite; */
+display: flex;
+flex-direction: column;
+height: 50vh;
+justify-content: center;
+
+
+}
+
+.heading h1{
+  font-size: 100px;
+  font-weight: bold;
+
+}
+
+.heading p{
+  font-size: 25px;
+  
+
+}
+
+
+.main-work{
+  background-color: rgb(230, 164, 117);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card{
+  width: 600px;
+  margin-top: 40px;
+}
+
+@media (max-width:768px) {
+  .card{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .heading h1{
+    font-size: 50px;
+   
+  }
+
+  .heading p{
+    font-size: 17px;
+    line-height: 1.6;
+    width: 85%;
+    letter-spacing: 1px;
+    
+  
+  }
+}
+
+
+
+.main-fot{
+  background-color: rgb(204, 199, 200);
+}
+
+.footer-head{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 45px;
+  padding-top: 30px;
+}
+
+.footer-icon{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+
+
+
+@media (max-width:768px) {
+  .footer-head h4{
+    font-size: 15px;
+    
+  }
+
+  .footer-head {
+    padding-bottom: 35px;
+    
+  }
+
+  .footer-icon{
+    
+    gap: 20px;
+  }
+}
+
+.footer-body{
+  margin-top: 40px;
+}
+
+.footer-copy{
+  text-align: center;
+  margin-top: 60px;
+  /* background-color: beige; */
+
 }

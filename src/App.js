@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./Footer";
+import { useState } from "react";
+import Home from "./Home";
+import Nav from "./Nav";
+import Work from "./Work";
+import Button from 'react-bootstrap/Button';
+
+
 
 function App() {
+  const [lan, setLan]=useState('en')
+  
+  const handella=()=>{
+    if(lan==='ar')
+    setLan('en')
+
+    else setLan('ar')
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Nav lan={lan} handella={handella}/> 
+             
+
+      <Home lan={lan} handella={handella}/>
+      
+      <Work lan={lan}/>
+      <Footer lan={lan}/>
     </div>
   );
 }
