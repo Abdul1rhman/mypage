@@ -31,7 +31,7 @@ function Work({lan}) {
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
                     </Card.Text> */}
-                    <a href='https://abdul1rhman.github.io/athkar/'target='_blank' variant="dark" className="btn btn-dark">زيارة الموقع <AiOutlineArrowLeft/> </a>
+                    <a href='https://athkary-sage.vercel.app/'target='_blank' variant="dark" className="btn btn-dark">زيارة الموقع <AiOutlineArrowLeft/> </a>
                     </Card.Body>
                 </Card>
             </Col>
@@ -104,7 +104,7 @@ function Work({lan}) {
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
                     </Card.Text> */}
-                    <a href='https://abdul1rhman.github.io/athkar/'target='_blank' variant="dark" className="btn btn-dark"> <AiOutlineArrowLeft/> Visit Now</a>
+                    <a href='https://athkary-sage.vercel.app/'target='_blank' variant="dark" className="btn btn-dark"> <AiOutlineArrowLeft/> Visit Now</a>
                     </Card.Body>
                 </Card>
             </Col>
