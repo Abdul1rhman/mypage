@@ -15,8 +15,8 @@ function Footer({lan}) {
                 <h4>تواصل معي على الشبكات الاجتماعية:</h4>
 
                 <div className='footer-icon'>
-                    <BsLinkedin style={{fontSize:'25px' ,cursor:'pointer'}}/>
-                    <BsGithub style={{fontSize:'25px' ,cursor:'pointer'}}/>
+                    <a href="https://www.linkedin.com/in/abdulrhman-al-otaibi-3b259525b/" target="_blank"><BsLinkedin style={{fontSize:'25px' ,cursor:'pointer'}} /></a>
+                    <a href="https://github.com/Abdul1rhman" target="_blank"><BsGithub style={{fontSize:'25px' ,cursor:'pointer'}}/></a>
                     <BsInstagram style={{fontSize:'25px' ,cursor:'pointer'}}/>
                     <BsTwitter style={{fontSize:'25px' ,cursor:'pointer'}}/>
 
@@ -27,8 +27,8 @@ function Footer({lan}) {
                 <h4>Get connected with me on social networks:</h4>
 
                 <div className='footer-icon'>
-                    <BsLinkedin style={{fontSize:'25px' ,cursor:'pointer'}}/>
-                    <BsGithub style={{fontSize:'25px' ,cursor:'pointer'}}/>
+                <a href="https://www.linkedin.com/in/abdulrhman-al-otaibi-3b259525b/" target="_blank"><BsLinkedin style={{fontSize:'25px' ,cursor:'pointer'}} /></a>
+                    <a href="https://github.com/Abdul1rhman" target="_blank"><BsGithub style={{fontSize:'25px' ,cursor:'pointer'}}/></a>
                     <BsInstagram style={{fontSize:'25px' ,cursor:'pointer'}}/>
                     <BsTwitter style={{fontSize:'25px' ,cursor:'pointer'}}/>
 
