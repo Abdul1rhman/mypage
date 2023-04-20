@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import { Col, Row } from 'react-bootstrap';
 import fir from './firstweb.PNG'
 import athkar from './athkar.PNG'
-import sec from './secweb.PNG' 
+import Ai from './Ai-blog.PNG' 
 import post from './Post.PNG' 
 
 import {BsCodeSlash} from 'react-icons/bs';
@@ -58,14 +58,14 @@ function Work({lan}) {
             <Row className="g-4">
             <Col >
                 <Card className='card' >
-                    <Card.Img variant="top" src={sec} />
+                    <Card.Img variant="top" src={Ai} />
                     <Card.Body>
-                    <Card.Title style={{marginBottom:'30px'}}>الموقع الثاني</Card.Title>
+                    <Card.Title style={{marginBottom:'30px'}}>المتأصلة</Card.Title>
                     {/* <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
                     </Card.Text> */}
-                    <a href='https://abdul1rhman.github.io/second-web/'target='_blank' variant="dark" className="btn btn-dark">زيارة الموقع <AiOutlineArrowLeft/></a>
+                    <a href='https://blog-ai-weld.vercel.app/'target='_blank' variant="dark" className="btn btn-dark">زيارة الموقع <AiOutlineArrowLeft/></a>
                     </Card.Body>
                 </Card>
             </Col>
@@ -131,14 +131,14 @@ function Work({lan}) {
             <Row className="g-4">
             <Col >
                 <Card className='card' >
-                    <Card.Img variant="top" src={sec} />
+                    <Card.Img variant="top" src={Ai} />
                     <Card.Body>
-                    <Card.Title style={{marginBottom:'30px'}}>Second website</Card.Title>
+                    <Card.Title style={{marginBottom:'30px'}}>Ai-Blog</Card.Title>
                     {/* <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
                     </Card.Text> */}
-                    <a href='https://abdul1rhman.github.io/second-web/'target='_blank' variant="dark" className="btn btn-dark"><AiOutlineArrowLeft/> Visit Now</a>
+                    <a href='https://blog-ai-weld.vercel.app/'target='_blank' variant="dark" className="btn btn-dark"><AiOutlineArrowLeft/> Visit Now</a>
                     </Card.Body>
                 </Card>
             </Col>

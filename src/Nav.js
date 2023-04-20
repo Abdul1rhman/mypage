@@ -41,6 +41,7 @@ function Nav({lan, handella}) {
                     <HiMenu style={{width:'30px',height:'30px',}}/>}
 
                 </button>
+        
                 
                 <ul className={`nav-menu ${isOpen?'active':''}`}>
                     <li ><a href="#h" onClick={handela}>الرئيسية</a></li>
