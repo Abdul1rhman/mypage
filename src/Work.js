@@ -13,6 +13,7 @@ import {AiOutlineArrowLeft}from 'react-icons/ai';
 function Work({lan}) {
   return (
     <div className='main-work' id='d'>
+    
         <Container className='pt-5 pb-5'>
             
             

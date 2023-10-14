@@ -4,9 +4,9 @@ import Home from "./Home";
 import Nav from "./Nav";
 import Work from "./Work";
 import Button from 'react-bootstrap/Button';
-
-
-
+import Skills from "./Skills";
+import Cert from "./Cert";
+import Tec from "./Tec";
 function App() {
   const [lan, setLan]=useState('en')
   
@@ -24,8 +24,12 @@ function App() {
              
 
       <Home lan={lan} handella={handella}/>
-      
+      <Tec lan={lan}/>
+      <Cert lan={lan}/>
+      <Skills lan={lan}/>
       <Work lan={lan}/>
+      
+      
       <Footer lan={lan}/>
     </div>
   );

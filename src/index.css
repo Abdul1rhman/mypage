@@ -1,7 +1,5 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap');
-
 
 
 *{
@@ -13,11 +11,11 @@
   
 }
 
-nav{
-  
+nav{ 
   color: black;
   height: 70px;
   margin-top: 30px;
+  margin-bottom: 30px;
   
 }
 
@@ -115,7 +113,6 @@ a{
 
 
 
-
 @media (max-width:768px) {
   /* .nav-cont ul{
     display: none;
@@ -176,12 +173,12 @@ flex-direction: column;
 height: 50vh;
 justify-content: center;
 
-
 }
 
 .heading h1{
   font-size: 100px;
   font-weight: bold;
+  margin-top: 80px;
 
 }
 
@@ -190,7 +187,6 @@ justify-content: center;
   
 
 }
-
 
 .main-work{
   background-color: rgb(230, 164, 117);
@@ -201,6 +197,9 @@ justify-content: center;
 .card{
   width: 600px;
   margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 @media (max-width:768px) {
@@ -224,7 +223,6 @@ justify-content: center;
   
   }
 }
-
 
 
 .main-fot{
@@ -259,7 +257,6 @@ justify-content: center;
 
 
 
-
 @media (max-width:768px) {
   .footer-head h4{
     font-size: 15px;
@@ -287,3 +284,257 @@ justify-content: center;
   /* background-color: beige; */
 
 }
+
+.skills-main-cont {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  }
+
+.skills-main-cont h1{
+text-align: center;
+padding-top: 40px;
+}
+
+.skills-card-cont{
+  margin-bottom: 30px;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+
+}
+
+.skills-card{
+  /* border:#000000 1px solid; */
+  width: 200px;
+  padding: 35px 25px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+
+@media (max-width:1550px) {
+
+  .skills-card-cont{
+    flex-wrap: wrap;
+    gap: 40px;
+    flex-grow: 1;
+  }
+
+  .skills-card{
+    flex-basis: 23.33333% ;
+    
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .skills-card-cont{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+}
+
+.cert-cont{
+  padding-bottom: 50px;
+
+}
+
+.cert-cont h1{
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 60px;
+  }
+
+  .cert-card-cont{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+
+    
+  }
+
+.card-cert {
+  width: 600px;
+  height: 500px;
+  perspective: 1000px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+}
+
+.card-cert.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-cert-front,
+.card-cert-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+
+}
+
+.card-cert-front {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-cert-front h2 {
+  font-size: 35px;
+  margin-top: 30px;
+  padding: 10px 30px;
+  
+}
+
+.card-cert-front p {
+  font-size: 25px;
+  margin-top: 20px;
+  max-width: 70%;
+  
+}
+
+.card-cert-front span {
+  font-size: 15px;
+  position: absolute;
+  bottom: 6px;
+}
+
+.badge{
+  color: #e91e63;
+  margin-bottom: 10px;
+  margin-top: -15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.card-cert-back {
+  background-color: #d0d0d0;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:1399px) {
+
+  .cert-card-cont{
+    
+    justify-content: center;
+
+    
+  }
+
+
+}
+
+@media (max-width:968px) {
+
+  .cert-card-cont{
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .card-cert {
+    width: 380px;
+  }
+
+  .card-cert-front h2 {
+    font-size: 25px;
+    margin-top: 30px;
+    
+  }
+
+  .card-cert-front p {
+    font-size: 18px;
+    margin-top: 14px;
+    max-width: 70%;
+    
+  }
+
+}
+
+.tec-cont{
+  padding: 30px;
+  background-color: #eeeeee;
+  margin-bottom: 50px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.tec-cont h1{
+  text-align: center;
+  
+  margin-bottom: 70px;
+  
+}
+
+.one-two{
+  display: flex;
+  justify-content: space-around;
+}
+.one-tec h3{
+  line-height: 1.5;
+  margin-top: 20px;
+  
+  
+
+}
+
+.two-tec h3{
+  line-height: 1.5;
+  margin-top: 20px;
+  
+  
+
+}
+
+@media (max-width:768px) {
+
+  .one-two{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+
+  .tec-cont{
+    height: fit-content;
+  }
+
+}
+
+
+

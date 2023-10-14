@@ -27,6 +27,8 @@ function Home({lan, handella}) {
   return (
     
     <div className='main-home' id='h'>
+
+      
       
       {/* <button className="lang" style={{backgroundColor:'black'}} onClick={handella}>{lan==='ar'?'ar':'en'}</button>  */}
         <Container className='pt-5'>
@@ -56,9 +58,10 @@ function Home({lan, handella}) {
             
             </h1>
             
+            
 
             <h2>Full-Stack Developer</h2>
-            <p>Computer Science, 
+            <p className='summry'>Computer Science, 
               proficient in several programming languages. I enjoy turning complex problems into <span style={{fontWeight: 'bold'}}>simple</span>, <span style={{fontWeight: 'bold'}} >beautiful</span>, and <span style={{fontWeight: 'bold'}}>intuitive solutions</span>.</p>
 
               
