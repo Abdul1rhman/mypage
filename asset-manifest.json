@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "./static/css/main.9050aab4.css",
-    "main.js": "./static/js/main.6ad266fa.js",
+    "main.js": "./static/js/main.03a6f94e.js",
     "static/media/firstweb.PNG": "./static/media/firstweb.98494e8abed7007bab4c.PNG",
-    "static/media/Ai-blog.PNG": "./static/media/Ai-blog.77dc0cb9557e856df56b.PNG",
     "static/media/athkar.PNG": "./static/media/athkar.6cc47202488dea4ee9e8.PNG",
+    "static/media/cards-game.JPG": "./static/media/cards-game.5fcbeb92be42c4e0e0e6.JPG",
     "static/media/Capture.JPG": "./static/media/Capture.e8ec1c82d3b7dd28b4f4.JPG",
     "static/media/freecode.PNG": "./static/media/freecode.2e720406d56dcde3f5d6.PNG",
     "static/media/I2CS__1.png": "./static/media/I2CS__1.3b65e73ee2514d466833.png",
@@ -12,10 +12,10 @@
     "static/media/Capture2.JPG": "./static/media/Capture2.fed5eb6c1746600a4608.JPG",
     "index.html": "./index.html",
     "main.9050aab4.css.map": "./static/css/main.9050aab4.css.map",
-    "main.6ad266fa.js.map": "./static/js/main.6ad266fa.js.map"
+    "main.03a6f94e.js.map": "./static/js/main.03a6f94e.js.map"
   },
   "entrypoints": [
     "static/css/main.9050aab4.css",
-    "static/js/main.6ad266fa.js"
+    "static/js/main.03a6f94e.js"
   ]
 }
