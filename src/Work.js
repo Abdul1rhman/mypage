@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import { Col, Row } from 'react-bootstrap';
 import fir from './firstweb.PNG'
 import athkar from './athkar.PNG'
-import Ai from './Ai-blog.PNG' 
+import Ai from './cards-game.JPG';
 import post from './Post.PNG' 
 
 import {BsCodeSlash} from 'react-icons/bs';
@@ -61,12 +61,12 @@ function Work({lan}) {
                 <Card className='card' >
                     <Card.Img variant="top" src={Ai} />
                     <Card.Body>
-                    <Card.Title style={{marginBottom:'30px'}}>المتأصلة</Card.Title>
+                    <Card.Title style={{marginBottom:'30px'}}>لعبة الذاكرة</Card.Title>
                     {/* <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
                     </Card.Text> */}
-                    <a href='https://blog-ai-weld.vercel.app/'target='_blank' variant="dark" className="btn btn-dark">زيارة الموقع <AiOutlineArrowLeft/></a>
+                    <a href='https://memory-cards-phi.vercel.app/'target='_blank' variant="dark" className="btn btn-dark">زيارة الموقع <AiOutlineArrowLeft/></a>
                     </Card.Body>
                 </Card>
             </Col>
@@ -134,12 +134,12 @@ function Work({lan}) {
                 <Card className='card' >
                     <Card.Img variant="top" src={Ai} />
                     <Card.Body>
-                    <Card.Title style={{marginBottom:'30px'}}>Ai-Blog</Card.Title>
+                    <Card.Title style={{marginBottom:'30px'}}>Memory game</Card.Title>
                     {/* <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
                     </Card.Text> */}
-                    <a href='https://blog-ai-weld.vercel.app/'target='_blank' variant="dark" className="btn btn-dark"><AiOutlineArrowLeft/> Visit Now</a>
+                    <a href='https://memory-cards-phi.vercel.app/'target='_blank' variant="dark" className="btn btn-dark"><AiOutlineArrowLeft/> Visit Now</a>
                     </Card.Body>
                 </Card>
             </Col>
